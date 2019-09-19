@@ -33,3 +33,9 @@ jobs:
     - DEBUG=remote*
     script:
     - yarn test:examples
+  - name: Examples
+    os: windows
+    env:
+    - DEBUG=remote*
+    script:
+    - yarn test:examples
